@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./reset.css"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script> 
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+</head>
+<body>
+<!--nav bar which will have ability to click and take you to specific section of site  -->
+    <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">Navbar</span>
+    </nav>
+
+    <!-- this area contains profile picture and title -->
+<header>
+    <div class="col-12">
+        <img src="./mike.headshot.jpg" alt="profile picture" class="rounded-circle">
+        <h2>Michael Emmons</h2>
+        <h3>Web Developer</h3>
+    </div>
+</header>
+
+<!-- This area is the about me section -->
+<section>
+    <div class="col-12 about-section">
+        <h3>About Me</h3>
+        <p>
+Hey there! I see you have landed on my about me page. What is there to know one might say? Well, let’s get a little acquainted.
+        </p>
+<p>
+My name is Michael and I’m a graduate of SUNY Cortland with a Bachelor degree in Communications. Yes, a Communications Major….I know. After graduating I was able to obtain a job in the finance industry through Wells Fargo. From there I have built relationships with my clients and developed professional strengths. Though I had a stellar reputation with the company, I found myself wanting a change. I decided to explore and challenge myself in a new profession, specifically in the tech industry. That is when I came across programming. I knew it was a perfect fit. It challenged me and allowed me to use my creative side to solve problems.
+</p>
+<p>
+
+To gain more of a formal education in programming, I enrolled and completed a web development program through UNCC with the purpose of becoming a full stack developer. This new drive and passion has allowed me to receive the challenge of non-stop learning and use of my creative side. I am now able to develop applications on both front and back-end technologies. As you browse through my site you will see various applications I’ve created showcasing my skillset. I will continue to update and develop new applications to post on the site so make sure to check back often. If you have questions please contact me on LinkedIn or within the contact section on my site!
+</p>    
+</div>
+</section>
+
+<!-- This is portfolio section -->
+<section>
+    <div class="col-12">
+        <h3>Portfolio Projects</h3>
+
+        <div class="proj-sample-1">  
+            </div>
+
+        <div class="proj-sample-2">  
+            <button class="btn btn-primary" id="more-projects">Show More</button>
+            </div>
+
+    </div>
+</section>
+
+<section>
+    <div class="col-12">
+        <h3>Skills</h3>
+
+         <div class="skill-thumbnails">
+                            <img src="./images/icon-html.png" height="80px" width="90px">
+                            <img src="./images/icon-css.png" height="80px" width="90px">
+                            <img src="./images/icon-bootstrap.png" height="80px" width="140px">
+                            <img src="./images/icon-javascript.png" height="80px" width="90px">
+                            <img src="./images/icon-mongo.png" height="80px" width="90px">
+                            <img src="./images/icon-jquery.png" height="80px" width="90px">
+                            <img src="./images/icon-node.png" height="80px" width="100px">
+                            <img src="./images/icon-mysql.png" height="80px" width="100px">
+                            <img src="./images/icon-webpack.png" height="80px" width="200px">
+                            <img src="./images/icon-firebase.png" height="50px" width="320px">
+
+                            <!-- <img src="./assets/images/icon-react.png"  height="60px" width="190px"> -->
+                            <img src="./images/icon-sequelize.png" height="80px" width="140px" id="seq">
+
+            </div>
+        </div>
+</section>
+
+ <div class="modal">
+
+	            <div class="modal-inside">
+                <span class="close">&times;</span>
+
+		    <div class="modal-content">
+			<div class="modal-title"></div>
+
+		    <div class="modal-body"></div>
+			 <div class="modal-button-area"></div>
+            <div class="modal-about-area"></div>
+            </div>
+       
+
+	        </div>
+
+</div>
+    <script type="text/javascript" src="./javascript.js">
+</script>
+</body>
+</html>
