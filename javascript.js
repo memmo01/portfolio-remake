@@ -1,6 +1,6 @@
 var projects=[{
     title: "Restaurants Database",
-    about:"'<h1>description</h1><p>Restaurants Database is an application created to help with organizing data about restaurants visited. The application allows you to enter in restaurants you have gone to or want to go to. Information such as: name, location, price range, nationality, and rating is entered into the database. Once the information is in the database it will allow the user to search the database by name, nationality, rating, price range, or just select a random restaurant to have pulled up if you are feeling spontanious. The application also allows the user to enter in text about their exerience at the restaurant.</p><br><h1>Technologies used:</h1><p><li>javascript</li><li>node.js</li><li>inquirer</li><li>MYSQL</li><p>'",
+    about:"<h1>description</h1><p>Restaurants Database is an application created to help with organizing data about restaurants visited. The application allows you to enter in restaurants you have gone to or want to go to. Information such as: name, location, price range, nationality, and rating is entered into the database. Once the information is in the database it will allow the user to search the database by name, nationality, rating, price range, or just select a random restaurant to have pulled up if you are feeling spontanious. The application also allows the user to enter in text about their exerience at the restaurant.</p><br><h1>Technologies used:</h1><p><li>javascript</li><li>node.js</li><li>inquirer</li><li>MYSQL</li><p>'",
     code:["node.js","javascript","MYSQL","inquirer"],
     picture:"./images/nodeRestScreenShot.JPG",
     video:'https://www.youtube.com/embed/9ogm2sgljho',
@@ -8,7 +8,7 @@ var projects=[{
     codeLink:""
 },{
     title: "Train Schedule",
-    about:"'<h1>description</h1><p>The Train Schdule is an application allowing a user to enter in a train name, destination, when the first train leaves, and how often the train arrives. Once this data is entered the application will update and tell the user when the next train will arrive based on the current time.</p><br><h1>Technologies used:</h1><p><li>Firebase</li><li>Bootstrap</li><li>Momentjs</li><li>Javascript</li><li>jQuery</li><li>HTML</li><li>CSS</li></p>",
+    about:"<h1>description</h1><p>The Train Schdule is an application allowing a user to enter in a train name, destination, when the first train leaves, and how often the train arrives. Once this data is entered the application will update and tell the user when the next train will arrive based on the current time.</p><br><h1>Technologies used:</h1><p><li>Firebase</li><li>Bootstrap</li><li>Momentjs</li><li>Javascript</li><li>jQuery</li><li>HTML</li><li>CSS</li></p>",
     code:["Firebase","HTML","CSS","javascript","jquery","bootstrap","momentjs"],
     picture:"./images/trainmainpage.JPG",
     video:'https://www.youtube.com/embed/wAvGqw-sPJM',
@@ -16,7 +16,7 @@ var projects=[{
     codeLink:"https://memmo01.github.io/train-schedule/"
 },{
     title: "Favorite Movie App",
-    about:"'<h1>description</h1><p>The Favorite Movie application allows users to have a space where a list of their favorite movies can be stored. The program allows users to create a username and password so when they log in they have a personal space with movies they selected as favorites to display. When logged in a user can search movies and gain information such as : title, year released, actors, plots, ratings, and box office stats. When the user chooses a favorite movie to add to their page they will have quicker access to this information. The application will also have an area where posts can be made to connect with other users.</p><br><h1>Technologies used:</h1><p><li>javascript</li><li>node.js</li><li>jQuery</li><li>MYSQL</li><li>Bootstrap</li><li>HTML</li><li>CSS</li><li>API call</li></p>",
+    about:"<h1>description</h1><p>The Favorite Movie application allows users to have a space where a list of their favorite movies can be stored. The program allows users to create a username and password so when they log in they have a personal space with movies they selected as favorites to display. When logged in a user can search movies and gain information such as : title, year released, actors, plots, ratings, and box office stats. When the user chooses a favorite movie to add to their page they will have quicker access to this information. The application will also have an area where posts can be made to connect with other users.</p><br><h1>Technologies used:</h1><p><li>javascript</li><li>node.js</li><li>jQuery</li><li>MYSQL</li><li>Bootstrap</li><li>HTML</li><li>CSS</li><li>API call</li></p>",
     code:["node.js","MYSQL","javascript","jQuery","bootstrap","html","css","API call"],
     picture:"./images/movie_app.JPG",
     video:'https://www.youtube.com/embed/Z0M8D9bwga8',
@@ -24,7 +24,7 @@ var projects=[{
     codeLink:""
 },{
     title: "Foodie Finder",
-    about:"'<h1>description</h1><p>This application allows you to fill out a 10 question survey about how you feel towards certain food scenerios. After submiting your survey, you are then directed to a compatible page. This application allows you to fill out a 10 question survey about how you feel towards certain food scenerios. After submiting your survey, you are then directed to a compatible page. This page will load 'Foodies' (profiles of people preloaded into the program) that you are most like.</p><p>In the survery you can add a name and picture. Currently the picture is not saved on a local server so you will have to add an image url of yourself or any picture from a google image.</p><p>To start the program you will need to do an NPM install of:</p><p>'body-parser',</p><p>'express',</p><p>'inquirer','path'</p><br><h1>Technologies used:</h1><p><li>node.js</li><li>Javascript</li><li>jQuery</li><li>HTML</li><li>CSS</li></p>",
+    about:"<h1>description</h1><p>This application allows you to fill out a 10 question survey about how you feel towards certain food scenerios. After submiting your survey, you are then directed to a compatible page. This application allows you to fill out a 10 question survey about how you feel towards certain food scenerios. After submiting your survey, you are then directed to a compatible page. This page will load 'Foodies' (profiles of people preloaded into the program) that you are most like.</p><p>In the survery you can add a name and picture. Currently the picture is not saved on a local server so you will have to add an image url of yourself or any picture from a google image.</p><p>To start the program you will need to do an NPM install of:</p><p>'body-parser',</p><p>'express',</p><p>'inquirer','path'</p><br><h1>Technologies used:</h1><p><li>node.js</li><li>Javascript</li><li>jQuery</li><li>HTML</li><li>CSS</li></p>",
     code:["HTML","CSS","javascript","node.js","express"],
     picture:"./images/foodiemainpage.JPG",
     video:'https://www.youtube.com/embed/cH-d9l226D0',
@@ -32,7 +32,7 @@ var projects=[{
     codeLink:""
 },{
     title: "New York Times Article Search",
-    about:"'<h1>description</h1><p>The New York Times Article Search is a program created to show how an API could be used to help with searching an organizing information a developer may need for their application. Once you enter in the a topic you are searching along with the date ranges being searched it will respond with a list of articles from the New York Times containing that topic. Once the list has populated the user can select the article and it will direct them to that specific article on the New York Times.</p><br><h1>Technologies used:</h1><p><li>HTML</li><li>CSS</li><li>Javascript</li><li>jQuery</li><li>New York Times API</li></p>",
+    about:"<h1>description</h1><p>The New York Times Article Search is a program created to show how an API could be used to help with searching an organizing information a developer may need for their application. Once you enter in the a topic you are searching along with the date ranges being searched it will respond with a list of articles from the New York Times containing that topic. Once the list has populated the user can select the article and it will direct them to that specific article on the New York Times.</p><br><h1>Technologies used:</h1><p><li>HTML</li><li>CSS</li><li>Javascript</li><li>jQuery</li><li>New York Times API</li></p>",
     code:["HTML","CSS","javascript","New York Times API"],
     picture:"./images/nytftpg.JPG",
     video:'',
@@ -49,7 +49,7 @@ var projects=[{
 },
 {
     title: "Bamazon",
-    about:"'<h1>description</h1><p>The Bamazon Application allows users to select and purchase items within 'Bamazon's' inventory. Once the applciation starts it will load the list of items in stock, their price, and quantity. The terminal will prompt the user to select an item and then how many they wish to buy. Once selected the system will inform the user of the item they selected and how much it would cost based on the quantity they selected. If the item is out of stock the system will inform the user that the quantity they need is not available.</p><br><h1>Technologies used:</h1><p><li>javascript</li><li>node.js</li><li>inquirer</li><li>MYSQL</li></p>",
+    about:"<h1>description</h1><p>The Bamazon Application allows users to select and purchase items within 'Bamazon's' inventory. Once the applciation starts it will load the list of items in stock, their price, and quantity. The terminal will prompt the user to select an item and then how many they wish to buy. Once selected the system will inform the user of the item they selected and how much it would cost based on the quantity they selected. If the item is out of stock the system will inform the user that the quantity they need is not available.</p><br><h1>Technologies used:</h1><p><li>javascript</li><li>node.js</li><li>inquirer</li><li>MYSQL</li></p>",
     code:["node.js","MYSQL","javascript","inquirer"],
     picture:"./images/bam-example.JPG",
     video:'https://www.youtube.com/embed/yxO_sZg4ACs',
@@ -74,7 +74,7 @@ var projects=[{
     codeLink:"https://memmo01.github.io/bootstrap-hangman/"
 },{
     title: "To Do List App",
-    about:"'<h1>description</h1><p>The To Do List Application is one that allows the user to enter in items that need to be completed. Once the task is submitted it will display on the screen as a task that needs to be completed along with a button stating completed. Once the completed button is selected it will display the item on the completed side with a button allowing the user to delete the task from the screen.</p><br><h1>Technologies used:</h1><p><li>Bootstrap</li><li>javascript</li><li>jQuery</li><li>Sequelize</li><li>express</li></p>",
+    about:"<h1>description</h1><p>The To Do List Application is one that allows the user to enter in items that need to be completed. Once the task is submitted it will display on the screen as a task that needs to be completed along with a button stating completed. Once the completed button is selected it will display the item on the completed side with a button allowing the user to delete the task from the screen.</p><br><h1>Technologies used:</h1><p><li>Bootstrap</li><li>javascript</li><li>jQuery</li><li>Sequelize</li><li>express</li></p>",
     code:["Bootstrap","javascript","jQuery","Sequelize","express"],
     picture:"./images/todo.JPG",
     video:'https://www.youtube.com/embed/MKxOKX3d8Ac',
@@ -101,12 +101,12 @@ var projects=[{
 }
 ]
 
-var projList="";
-var x=true;
-run();
+let projList="";
+let x=true;
 
 
-function run(){
+
+let run=()=>{
     $(".proj-sample-1").empty();
     
 if(x == true){
@@ -118,26 +118,30 @@ else {
 
        for(i=0;i<projList;i++)
         {
-            var project = projects[i].title
-            var picture= projects[i].picture;
-            var code = projects[i].code;
+            let project = projects[i].title
+            let picture= projects[i].picture;
+            let code = projects[i].code;
             
-            var projDiv= $("<div>");
+            let projDiv= $("<div>");
                 projDiv.addClass("projDiv")
 
-            var projectInfo ="<span id='look'>"+project+"</span>"
+            let projectInfo ="<span id='look'>"+project+"</span>"
 
-                var titleArea = $("<div>")
+                let titleArea = $("<div>")
                     titleArea.addClass("title-area");
-                    titleArea.text(project);
+                let titleAreaH1=$("<h4>");
+
+                    titleAreaH1.text(project);
+
+                    $(titleArea).append(titleAreaH1)
 
                 
-                    var projBody = $("<img>");
+                    let projBody = $("<img>");
                      projBody.attr("src",picture);
                          projBody.addClass("projBody");
                             
 
-                var projectButton = $("<div>");
+                let projectButton = $("<div>");
                     projectButton.attr("data-id",i)
                     projectButton.text("view project")
                     projectButton.addClass("proj-button")
@@ -162,27 +166,27 @@ else {
             $(".modal").css("display","block");
 
 
-        var application = ($(this).data("id"))
-        var title = projects[application].title;
-        var screenShot = projects[application].video;
-        var gitLink = projects[application].github;
-        var about = projects[application].about;
-        var codeLink = projects[application].codeLink;
-        var picture = projects[application].picture;
+        let application = ($(this).data("id"))
+        let title = projects[application].title;
+        let screenShot = projects[application].video;
+        let gitLink = projects[application].github;
+        let about = projects[application].about;
+        let codeLink = projects[application].codeLink;
+        let picture = projects[application].picture;
 
-                var gitButton = $("<div>");
+                let gitButton = $("<div>");
                     gitButton.addClass("gitButton");
                     gitButton.attr("data-link", gitLink);
 
-                var codeLinkButton = $("<div>");
+                let codeLinkButton = $("<div>");
                     codeLinkButton.addClass("codeLink");
                     codeLinkButton.attr("data-code",codeLink)
 
 
               
 
-                var gitPic="<acronym title='Click to View Code on GitHub'><img src='./images/github.png'height='40px' width='40px' alt='git' id='gitgit'></acronym>"
-                var  tryCodeLink ="<acronym title='Click to Try Application'><i class='fas fa-desktop fa-2x'></i></acronym>";  
+                let gitPic="<acronym title='Click to View Code on GitHub'><img src='./images/github.png'height='40px' width='40px' alt='git' id='gitgit'></acronym>"
+                let  tryCodeLink ="<acronym title='Click to Try Application'><i class='fas fa-desktop fa-2x'></i></acronym>";  
                 gitButton.prepend(gitPic);
 
                 if(codeLink !== ""){
@@ -193,10 +197,10 @@ else {
                  
                 
        
-             var video = $("<iframe>");
+             let video = $("<iframe>");
                 video.attr("src",screenShot);
             
-            var pictureModal = $("<img>");
+            let pictureModal = $("<img>");
                         pictureModal.attr("src", picture);
                         pictureModal.addClass("pictureModal")
                 
@@ -207,25 +211,28 @@ else {
                   $(".modal-body").html(pictureModal);
             }
 
+            let modTitle=$("<h3>");
+                modTitle.text(title);
 
-            $(".modal-title").html(title);
+            $(".modal-title").html(modTitle);
             $(".modal-button-area").html(gitButton)
             $(".modal-about-area").html(about)
 
            
     
 $(".gitButton").on("click",function(){
-   var url = ($(this).data("link"));
+   let url = ($(this).data("link"));
    window.open(url);
 })
 $(".codeLink").on("click",function(){
-    var url =($(this).data('code'));
+    let url =($(this).data('code'));
     window.open(url);
 })
 })
 
 
 }
+run();
 
 
 $(".close").on("click",function(){
@@ -248,7 +255,7 @@ else if( x == false){
 })
 
 $("#res-Button").on("click", function(){
-     var url = "https://drive.google.com/file/d/1ST8U-8_uD1HbgcAccuJ83TFI58LG7kYS/view?usp=sharing";
+     let url = "https://drive.google.com/file/d/1ST8U-8_uD1HbgcAccuJ83TFI58LG7kYS/view?usp=sharing";
    window.open(url);
 })
 
@@ -262,7 +269,7 @@ $("#contact").on("click",function(){
     $(".modal-title").html("Contact Me");
 
 
-    var contactForm= "<form id='contact-form'><div class='input-form'>";
+    let contactForm= "<form id='contact-form'><div class='input-form'>";
             contactForm +="<ul><li><label for='name'>Name</label><br><input type='text' id='name' name='name' required='required'></li>";
             contactForm +="<li><label for='email'>Email</label><br><input type='email' id='email' name='email' required='required'></li><li>";
             contactForm +="<label for='message'>Message</label><br><textarea id='message' name='message' required='required'></textarea></li></ul>";
@@ -271,14 +278,14 @@ $("#contact").on("click",function(){
 
 $("#contact-form").submit(function(event){
     event.preventDefault();
-        var name= $("#name").val().trim();
-        var email = $("#email").val().trim();
-        var comments = $("#message").val().trim();
-        var date=Date();
+        let name= $("#name").val().trim();
+        let email = $("#email").val().trim();
+        let comments = $("#message").val().trim();
+        let date=Date();
 
 
 
-        var newPost= {    
+        let newPost= {    
             comments: comments,
             email: email,
             name: name,

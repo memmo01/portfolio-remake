@@ -43,9 +43,12 @@ section .skill-thumbnails img{
          width:100%;
  }
          .pictureModal{
-         height:300px; 
-        width:90%; 
-        margin:5px 0 5px 5%;
+         /*height:300px; */
+        width:100%; 
+        /*margin:5px 0 5px 5%;*/
+    }
+    #more-projects{
+        margin-top:15px;
     }
     
     .modal{
@@ -61,26 +64,33 @@ section .skill-thumbnails img{
 }
 .modal-content{
     height:20%;
+    border:none;
     
 }
 .modal-inside{
-	background:rgba(255,255,255, 0.9)
+	background-color:#4484CE;
 }
-
+.gitButton{
+    display:inline-flex;
+}
+.gitButton .codeLink{
+    margin:5px;
+}
 
 .modal-title{
  font-size:28px;
 text-align:center;
 line-height:100px;
+padding:5px;
 background-color:#4484CE;
- font-family: 'Playfair Display', serif;
+font-family: 'Raleway', sans-serif;
  font-weight: 500;
  width:100%;
 
 }
  .modal-about-area{
     width:80%;
-    margin:0 0 50px 10%;
+    margin:40px 0 50px 10%;
     padding-bottom:10px;
     font-family: 'Raleway', sans-serif;
 } 
