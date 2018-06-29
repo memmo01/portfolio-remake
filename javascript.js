@@ -234,7 +234,9 @@ $(".codeLink").on("click",function(){
 }
 run();
 
-
+$(".hamburgOptions").on("click",function(){
+   $(".menu").toggle("display")
+})
 $(".close").on("click",function(){
     $(".modal").css("display","none");
 })
