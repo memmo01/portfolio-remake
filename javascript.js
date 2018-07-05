@@ -240,6 +240,9 @@ $(".hamburgOptions").on("click",function(){
 $(".close").on("click",function(){
     $(".modal").css("display","none");
 })
+$(".linkNav").on("click",function(){
+    $(".menu").toggle("display")
+})
 
 $("#more-projects").on("click",function(){
     if(x == true){

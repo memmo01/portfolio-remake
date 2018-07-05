@@ -14,17 +14,23 @@ header img{
      height:40%; 
      width: 40%;
      padding:5px; 
-     border:1px solid #0079c1;
-     background: #0079c1;
+     border:1px solid cadetblue;
+     background: cadetblue;
 }
 .menu{
     display:none;
-    height:100%;
+    /*height:100%;*/
+    padding-top: 60px;
     background-color: #E6E6E6;
-    float:left;
     position: fixed;
     z-index: 3;
 
+}
+.menu li{
+    list-style-type: none;
+    padding: 5px;
+    border-bottom: 1px solid rgba(45,45,45,.1);
+    color:black;
 }
 
 section{
@@ -60,6 +66,9 @@ section .skill-thumbnails img{
          /*height:300px; */
         width:100%; 
         /*margin:5px 0 5px 5%;*/
+    }
+    .proj-button{
+        background-color: cadetblue;
     }
     #more-projects{
         margin-top:15px;
